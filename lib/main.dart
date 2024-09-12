@@ -1,4 +1,5 @@
 import 'package:coffee_project/pages/cover.dart';
+import 'package:coffee_project/pages/sign_up_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:CoverPages(),
+      // home:CoverPages(),
+      home: SignUpPage(),
     );
   }
 }
